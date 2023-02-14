@@ -1,0 +1,18 @@
+# function argument
+def myfn1():
+    print('myfn1')
+    
+def myfn2(arg1):
+    print(arg1)
+    
+def myfn3(arg1='a', arg2='b'):
+    print(arg1,arg2)
+    
+def myfn4(*arg1):
+    for i in arg1:
+        print(i)
+    
+#myfn2('abc')
+#myfn3(10,20)
+#myfn3(arg2=10,arg1=20)
+myfn4(1,2,3,4)
